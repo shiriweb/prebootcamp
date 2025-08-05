@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Assignment</title>
+</head>
+<body>
+    <h1>Variable Assignment Exercise</h1>
+    <p>Open the browser console (F12) to see the output</p>
+    
+    <script src="variable-assignment.js"></script>
+    <script>
+        // Display the variables in the console
+        console.log("myFirstName:", myFirstName);
+        console.log("myFavoriteNum:", myFavoriteNum);
+        console.log("havingFun:", havingFun);
+        
+        // Also display on the page
+        document.body.innerHTML += `
+            <div>
+                <h2>Your Variables:</h2>
+                <p><strong>First Name:</strong> ${myFirstName}</p>
+                <p><strong>Favorite Number:</strong> ${myFavoriteNum}</p>
+                <p><strong>Having Fun:</strong> ${havingFun}</p>
+            </div>
+        `;
+    </script>
+</body>
+</html>
