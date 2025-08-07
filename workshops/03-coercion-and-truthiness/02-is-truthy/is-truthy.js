@@ -1,8 +1,6 @@
 // YOUR CODE BELOW
 function isTruthy(value) {
-  if (value === "truthy") {
-    return true;
-  } else if (value === false) {
+  if (value === false) {
     return "The boolean value false is falsey";
   } else if (value === null) {
     return "The null value is falsey";
@@ -13,7 +11,5 @@ function isTruthy(value) {
   } else if (value === "") {
     return "The empty string is falsey (the only falsey string)";
   }
+  return true;
 }
-
-let result = isTruthy('truthy');
-console.log(result);

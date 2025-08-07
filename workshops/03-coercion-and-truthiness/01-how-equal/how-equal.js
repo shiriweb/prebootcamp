@@ -8,5 +8,4 @@ function howEqual(num1, num2){
         return "not equal"
     }
 }
-let result = howEqual(5, 5);
-console.log(result);
+

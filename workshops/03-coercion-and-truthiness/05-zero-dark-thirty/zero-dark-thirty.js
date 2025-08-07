@@ -13,5 +13,3 @@ number = String(number)
   }
   return Number(NewNumber)
 }
-let result=  zeroDarkThirty(1200)
-console.log(result)
