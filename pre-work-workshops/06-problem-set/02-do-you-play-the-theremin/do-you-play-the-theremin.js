@@ -7,5 +7,3 @@ else{
     return false;
 }
 }
-let result = doYouPlayTheTheremin("school");
-console.log(result);

@@ -6,5 +6,4 @@ function greeting(name){
         return "Hello!";
     }
 }
-let result = greeting("Hari")
-console.log(result);;
+

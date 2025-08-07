@@ -6,5 +6,3 @@ function lastCharacter(first, second) {
     return false;
   }
 }
-let result = lastCharacter("sink", "pinks");
-console.log(result);

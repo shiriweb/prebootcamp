@@ -8,5 +8,3 @@ function maxOfThree(a,b,c){
         return c
     }
 }
-let result = maxOfThree(5, 10, 3);
-console.log(result);
