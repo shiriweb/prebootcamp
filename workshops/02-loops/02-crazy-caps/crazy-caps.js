@@ -8,6 +8,7 @@ function crazyCaps(string) {
       result = result + string[i].toUpperCase();
     }
   }
+  
   return result;
 }
 
