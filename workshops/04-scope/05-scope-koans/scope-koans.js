@@ -1,7 +1,8 @@
-// Test One Restrictions: Do not declare any new variable with the let keyword
+// Test One Restrictions: Do not declare any new variable with the let or var keyword
 let testOneMessage = 'test failing';
 
-function testOne() {
+function testOne(testOneMessage) {
+  testOneMessage = 'test succeeding'
   return testOneMessage;
 }
 
@@ -16,7 +17,7 @@ function testTwo() {
 }
 
 function helperFunc(a) {
-  a = 'test succeeding';
+  testTwoMessage = 'test succeeding';
   return a;
 }
 
@@ -29,7 +30,7 @@ function testThree(testThreeMessage) {
     testThreeMessage = 'test succeeding';
   }
 
-  let msg = getMessage();
+  let msg = getMessage(true);
   return msg;
 
   function getMessage(value) {
@@ -49,7 +50,7 @@ function testFour(msg) {
   function innerFunc(msg) {
     msg = msg
 
-    function doubleInner(msg) {
+    function doubleInner(ms) {
       testFourMessage = msg;
       return testFourMessage;
     }

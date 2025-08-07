@@ -5,5 +5,3 @@ function sumThingsWrong(num1, num2) {
   return sum;
 
 }
-let result = sumThingsWrong(5, 10);
-console.log(result);
