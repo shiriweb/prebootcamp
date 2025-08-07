@@ -8,5 +8,3 @@ function onlyOdds(number) {
     }
     return sum;
 }
-let result = onlyOdds(2);
-console.log(result);

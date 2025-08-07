@@ -36,5 +36,3 @@ function vowelCheck(value) {
   }
 }
 
-let result = mostVowels("I am a keeper with some real rhythms");
-console.log(result);

@@ -13,5 +13,4 @@ function mySlice(originalString, startIdx, endIdx) {
   }
   return slicedResult;
 }
-let result = mySlice("hello world", 0, 5);
-console.log(result);
+

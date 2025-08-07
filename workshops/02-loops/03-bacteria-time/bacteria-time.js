@@ -1,15 +1,13 @@
 // YOUR CODE BELOW
-function bacteriaTime(currentNum,targetNum){
-if(currentNum>targetNum){
-    return 'targetNum must be larger than currentNum';
-}
-let minutes= 0;
-while(currentNum < targetNum){
-    currentNum = currentNum * 2;
-    minutes = minutes + 20;
-}
-return minutes;
-}
-let finalResult = bacteriaTime(1, 9);
-console.log(finalResult);
+function bacteriaTime(currentNum, targetNum) {
+  if (targetNum < currentNum) {
+    return "targetNum must be larger than currentNum";
+  }
+  let newNum = 0;
 
+  while (currentNum < targetNum) {
+    currentNum *= 2;
+    newNum += 20;
+  }
+  return newNum;
+}

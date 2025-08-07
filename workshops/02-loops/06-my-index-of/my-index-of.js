@@ -13,5 +13,4 @@ function myIndexOf(source, searchValue, startIdx) {
   }
   return -1;
 }
-let finalResult = myIndexOf("hello world", "world", 0);
-console.log(finalResult);
+

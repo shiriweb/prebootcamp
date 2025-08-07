@@ -3,14 +3,14 @@ let bond = '007';
 function oddJob() {
   let AgentinScope = (bond === '007');
   let prediction = null; // YOUR BOOLEAN PREDICTION HERE
-
+  prediction = true
   return AgentinScope === prediction;
 }
-
 
 function goldFinger(bond) {
   let AgentinScope = (bond === '007')
   let prediction = null; // YOUR BOOLEAN PREDICTION HERE
+  prediction = false
 
   return AgentinScope === prediction;
 }
@@ -21,7 +21,7 @@ function scaramanga(target) {
 
   let AgentinScope = (bond === '007')
   let prediction = null; // YOUR BOOLEAN PREDICTION HERE
-
+  prediction = true
   return AgentinScope === prediction;
 }
 
@@ -31,10 +31,9 @@ function drNo() {
 
   let AgentinScope = (bond === '007');
   let prediction = null; // YOUR BOOLEAN PREDICTION HERE
-
+ prediction = false
   return AgentinScope === prediction;
 }
-
 
 function jaws(agent) {
   agent = bond;
@@ -42,9 +41,10 @@ function jaws(agent) {
 
   let AgentinScope = (agent === '007');
   let prediction = null; // YOUR BOOLEAN PREDICTION HERE
-
+  prediction=  true
   return AgentinScope === prediction;
 }
+
 
 
 function elChiffre() {
@@ -53,6 +53,7 @@ function elChiffre() {
 
   let AgentinScope = (agent === '007');
   let prediction = null; // YOUR BOOLEAN PREDICTION HERE
+  prediction = false
 
   return AgentinScope === prediction;
 }

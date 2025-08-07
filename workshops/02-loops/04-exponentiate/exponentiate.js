@@ -10,6 +10,5 @@ function exponentiate(base, power) {
   return result;
 }
 
-let finalResult = exponentiate(2, 3);
-console.log(finalResult);
+
 

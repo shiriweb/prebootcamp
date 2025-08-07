@@ -10,5 +10,4 @@ function crazyCaps(string) {
   }
   return result;
 }
-let finalResult = crazyCaps("this is my project");
-console.log(finalResult);
+
