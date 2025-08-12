@@ -38,3 +38,13 @@ let animalNoises = [
 ];
 
 // YOUR CODE BELOW
+function petSounds(name, country) {
+  for (let i = 0; i < animalNoises.length; i++) {
+    let animalObject = animalNoises[i];
+    if (name in animalObject) {
+      let sound = animalObject[name][country];
+      name = name[0].toUpperCase() + name.slice(1) + 's';
+      return name + " in " + country + " say " + sound;
+    }
+  }
+}
